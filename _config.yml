@@ -1,12 +1,11 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: The Fellowship of The Ring
+email: noreply@codeastra.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Fellowship of the Ring was formed as a brotherhood among members of the various Free People of Middle-earth.
+  Its purpose was to take the One Ring to Mordor that it might be cast into the fires of Mount Doom, the mountain in which it was forged, so that it would be destroyed, this would ultimately kill Dark Lord Sauron.
 baseurl: "/tlotr" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://bvsatyaram.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 

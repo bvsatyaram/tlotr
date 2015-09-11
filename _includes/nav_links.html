@@ -1,5 +1,10 @@
-{% for page in site.pages %}
+{% assign sorted_pages = (site.pages | sort: 'position') %}
+{% for page in sorted_pages %}
   {% if page.title %}
-  <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {% if include.param == "show-li" %}
+      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+    {% else %}
+      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {% endif %}
   {% endif %}
 {% endfor %}
