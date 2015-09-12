@@ -1,0 +1,33 @@
+#blog {
+  #posts {
+    margin-top: 1em;
+
+    .post {
+      h2 {
+        margin-top: 0;
+      }
+
+      .date-box {
+        text-align: center;
+        background-color: #333;
+        width: 7em;
+        height: 7em;
+        border-radius: 50%;
+        color: #FFF;
+        
+        .date {
+          font-size: 3em;
+        }
+
+        .month {
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+
+  .subscribe {
+    text-align: center;
+    margin: 1em 0;
+  }
+}
