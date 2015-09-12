@@ -1,0 +1,13 @@
+#about {
+  img {
+    border: 3px solid #B0B0B0;
+
+    &.pull-left {
+      margin-right: 20px;
+    }
+
+    &.pull-right {
+      margin-left: 20px;
+    }
+  }
+}

@@ -1,6 +1,31 @@
 @for $i from 1 through 6 {
   h#{$i} {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: $heading-font;
     font-weight: 400;
+    text-transform: lowercase;
   }
+}
+
+.raw {
+  font-family: $default-font;
+}
+
+body {
+  font-family: $normal-font;
+  font-weight: 300;
+}
+
+b, strong {
+  font-weight: 400;
+}
+
+nav.navbar {
+  font-family: $heading-font;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+footer {
+  margin: 2em 0 1em;
+  text-align: center;
 }
