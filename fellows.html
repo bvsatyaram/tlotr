@@ -4,4 +4,17 @@ title: Fellows
 permalink: /fellows/
 position: 2
 ---
-<h1>Fellows Page</h1>
+<div id="fellows" class="container-fluid">
+  <h1>Members of the Fellowship</h1>
+  {% for fellow in site.data.fellows %}
+    <div class="fellow row">
+      <div class="col-xs-2">
+        <img src="../images/fellows/{{fellow.image}}" alt="{{fellow.name}}" class="float-left img-circle img-responsive">
+      </div>
+      <div class="col-xs-10">
+        <h2>{{fellow.name}}</h2>
+        <p>{{fellow.description}}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

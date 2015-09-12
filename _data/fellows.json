@@ -1,0 +1,47 @@
+[
+  {
+    name:        "Gandalf",
+    image:       "gandalf.jpg",
+    description: "Gandalf the Grey is a wazard. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus molestiae nesciunt sed! Quas quo, suscipit iure corporis illo, ut praesentium."
+  },
+  {
+    name:        "Aragon",
+    image:       "aragon.jpg",
+    description: "Aragon the Strider is from the North. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus molestiae nesciunt sed! Quas quo, suscipit iure corporis illo, ut praesentium."
+  },
+  {
+    name:        "Legolas",
+    image:       "legolas.jpg",
+    description: "Legolas is an Elf Prince. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus molestiae nesciunt sed! Quas quo, suscipit iure corporis illo, ut praesentium."
+  },
+  {
+    name:        "Boromir",
+    image:       "boromir.png",
+    description: "Boromir is from Gondor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus molestiae nesciunt sed! Quas quo, suscipit iure corporis illo, ut praesentium."
+  },
+  {
+    name:        "Gimli",
+    image:       "gimli.jpg",
+    description: "Gimli is a dwarf. We have his axe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus molestiae nesciunt sed! Quas quo, suscipit iure corporis illo, ut praesentium."
+  },
+  {
+    name:        "Frodo",
+    image:       "frodo.jpg",
+    description: "Frodo is a hobbit. He is the ring bearer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus molestiae nesciunt sed! Quas quo, suscipit iure corporis illo, ut praesentium."
+  },
+  {
+    name:        "Samewise Gamgee",
+    image:       "sam.jpg",
+    description: "Sam is a hobbit too. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus molestiae nesciunt sed! Quas quo, suscipit iure corporis illo, ut praesentium."
+  },
+  {
+    name:        "Merry",
+    image:       "merry.jpg",
+    description: "Merry is a hobbit, a good friend of Pippin. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus molestiae nesciunt sed! Quas quo, suscipit iure corporis illo, ut praesentium."
+  },
+  {
+    name:        "Pippin",
+    image:       "pippin.jpg",
+    description: "Pippin is a hobbit, a cousin of Frodo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus molestiae nesciunt sed! Quas quo, suscipit iure corporis illo, ut praesentium."
+  }
+]
